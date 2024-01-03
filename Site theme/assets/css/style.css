@@ -2,12 +2,12 @@ body {
     background-color: black;
     margin: 0;
     overflow: hidden;
-    transition: background-color 0.5s; /* Dodaj animację przejścia */
+    transition: background-color 0.5s;
 }
 
 #changeBGColorButton {
     position: fixed;
-    top: 0.2cm; /* Popraw jednostkę na cm */
+    top: 0.2cm;
     right: 0.5cm;
     margin: 0.5cm;
     background-color: transparent;
@@ -15,5 +15,5 @@ body {
     cursor: pointer;
     font-size: 24px;
     color: white;
-    transition: color 0.5s; /* Dodaj animację przejścia koloru tekstu */
+    transition: color 0.5s;
 }
