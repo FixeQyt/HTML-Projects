@@ -1,0 +1,19 @@
+body {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    transition: background-color 0.5s; /* Dodaj animację przejścia */
+}
+
+#changeBGColorButton {
+    position: fixed;
+    top: 0.2cm; /* Popraw jednostkę na cm */
+    right: 0.5cm;
+    margin: 0.5cm;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    color: white;
+    transition: color 0.5s; /* Dodaj animację przejścia koloru tekstu */
+}
